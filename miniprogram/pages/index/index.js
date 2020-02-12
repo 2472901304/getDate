@@ -49,6 +49,7 @@ Page({
         nowArr = now.split('-');
     return Number((nowArr[0]-preArr[0])*12) + Number(nowArr[1]-preArr[1])
   },
+  //清除记录
   clear(){
     let now = new Date();
     this.setData({
@@ -58,6 +59,7 @@ Page({
       distance: 0
     })
   },
+  //计算百分比
   goDate(){
     console.log('go date');
     wx.switchTab({ url: '/pages/date/index', complete: (res)=>{
