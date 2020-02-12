@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/date/index"
+    "pages/date/index",
+    "pages/img/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -21,6 +22,9 @@
     },{
       "pagePath": "pages/date/index",
       "text": "日期计算"
+    },{
+      "pagePath": "pages/img/index",
+      "text": "瀑布流"
     }]
   }
 }
